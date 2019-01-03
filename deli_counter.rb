@@ -10,7 +10,7 @@ def line(katz_deli)
     katz_deli.each do |customer|
       number += 1
       line_positions << "#{number}. #{customer}"
-      
+
     end
     binding.pry
     puts "The line is currently: #{line_positions.join(" ")}"
